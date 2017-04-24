@@ -1,0 +1,22 @@
+div {
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 20px solid rgba(255,0,0,0.5);
+  background-image: url(http://s1.hubimg.com/u/8048884_f520.jpg);
+  background-repeat: no-repeat;
+  background-color: #00fafa;
+  background-position: center center;
+  /*background-origin: content-box;*/
+  background-size: cover;
+  box-shadow: 20px 20px 10px rgba(255,0,0,0.5);/*добавляємо тінь до блока*/
+}
+img {
+  /*max-width: 100%;
+  height: auto;*/
+  /*width: 150px;
+  height: 200px;
+  object-fit: contain;
+  object-position: center center;*/
+}
