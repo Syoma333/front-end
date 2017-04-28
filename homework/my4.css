@@ -19,8 +19,8 @@ font-family: montserrat Regular;
   background-color: #e7e7e7;
   font-size: 14px;
   margin: 0 auto;
-  width: 1170px;
-  height: 116px;
+  max-width: 1170px;
+  /*height: 116px;*/
 }
 .contacts-1 {
   float: left;
@@ -28,6 +28,7 @@ font-family: montserrat Regular;
   color: #232323;
   margin-top: 35px;
   padding-left: 30px;
+  margin-bottom: 33px;
 }
 .contacts-2 {
   float: right;

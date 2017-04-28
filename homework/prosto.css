@@ -17,7 +17,7 @@ html {
   background-color: #232323;
   }
 body {
-   min-width: 1170px;
+   min-width: 320px;
  }
 .header-top {
     background-color: #2b2b2b;
@@ -25,7 +25,8 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 1170px;
+  padding: 0 15px;
+  max-width: 1170px;
   color: #666666;
 }
 .header-mob {
@@ -38,7 +39,7 @@ body {
   float: right;
   font-family: montserrat Regular;
   }
-.header-login, .header-mob {
+.header-login .header-mob {
   padding: 5px 0;
 }
 .header-login a {

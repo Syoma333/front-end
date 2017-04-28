@@ -16,8 +16,10 @@
   text-decoration: none;
   color: #eaeaea;
 }
-.header-nav li+li {
-  margin-left: 27px;
+@media (min-width: 700px) {
+  .header-nav li+li {
+    margin-left: 27px;
+  }
 }
 .header-nav a:hover, .header-nav .current a {
   color: #be926f;
